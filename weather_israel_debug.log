@@ -1,0 +1,9 @@
+[22:15:37] Starting MCP Server...
+[22:15:41] 
+======================================================================
+[22:15:41] START: get_weather_forecast_israel with city=Jerusalem
+[22:15:41] ======================================================================
+[22:15:41] [1/8] TRANSLATE
+[22:15:41] translate_city_to_hebrew called with: Jerusalem
+[22:15:41] Calling LibreTranslate API for: Jerusalem
+[22:15:41] Translation error: HTTPSConnectionPool(host='libretranslate.de', port=443): Max retries exceeded with url: /translate (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)'))), using original: Jerusalem

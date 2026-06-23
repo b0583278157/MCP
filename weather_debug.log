@@ -1,0 +1,34 @@
+[22:18:07] MCP Server started
+[22:18:09] START: Jerusalem
+[22:18:09] Translating Jerusalem
+[22:18:10] Translated: Jerusalem
+[22:18:10] Starting Playwright
+[22:18:10] Playwright started
+[22:18:10] Launching browser
+[22:18:10] Browser launched
+[22:18:10] Creating page
+[22:18:10] Page created
+[22:18:10] Navigating to https://www.weather2day.co.il/forecast
+[22:18:17] Navigation complete
+[22:18:17] Finding input field
+[22:18:17] Found 7 input fields
+[22:18:17] Using first input
+[22:18:17] Clicking input
+[22:18:47] ERROR: TimeoutError: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("input").first
+    - locator resolved to <input autofocus="" type="search" class="empty" id="city_search" autocomplete="off" placeholder="מזג האוויר ב..."/>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    58 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
